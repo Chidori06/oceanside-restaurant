@@ -1,0 +1,400 @@
+:root {
+    --white: #ffffff;
+    --mist: #d7EFE3;
+    --seafoam: #96cdb0;
+    --mineral: #5A8F76;
+    --kelp: #203b37;
+    --abyss: #081b1b;
+    --sand: #c18d52;
+    --ivory: #eee8b2;
+    --degrade-logo: linear-gradient(135deg, #eee8b2 0%, #5A8F76 100%);
+    --degrade-cadre: linear-gradient(90deg, #203b37 15%, #5A8F76 100%);
+    --font-serif: "Cormorant Garamond", serif;
+}
+
+body {
+    background-color: var(--kelp);
+    color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-serif);
+}
+
+.header-section {
+    background-color: var(--kelp);
+}
+
+.navbar-brand {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--ivory);
+}
+
+.brand-logo {
+    width: 24px;
+    height: 24px;
+    background: var(--degrade-logo);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.o {
+    position: absolute;
+    color: var(--sand);
+    text-align: center;
+    top: 20%;
+    left: 0.3%;
+
+}
+
+.nav-link {
+    color: var(--white);
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.header-sub {
+    color: var(--mineral);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header-title {
+    color: var(--ivory);
+    font-size: 3.5rem;
+    font-family: var(--font-serif);
+}
+
+.header-text {
+    color: var(--mist);
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.header-section p {
+    line-height: normal;
+    margin: 0;
+}
+
+.btn-custom-ivory {
+    color: var(--abyss);
+    border: 1px solid var(--ivory);
+    background-color: var(--ivory);
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.btn-custom-ivory:hover {
+    background-color: var(--sand);
+    color: var(--kelp);
+}
+
+.btn-custom-sand {
+    color: var(--abyss);
+    border: 1px solid var(--sand);
+    background-color: var(--sand);
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.btn-custom-sand:hover {
+    background-color: var(--ivory);
+    color: var(--kelp);
+}
+
+.formes {
+    position: relative;
+}
+
+.sand-bar {
+    position: absolute;
+    width: 700px;
+    height: 110px;
+    background-color: var(--sand);
+    border-radius: 100px;
+    transform: rotate(15deg);
+    top: 20%;
+    right: 3%;
+}
+
+
+.seafoam-bar {
+    position: absolute;
+    width: 550px;
+    height: 90px;
+    background-color: var(--seafoam);
+    border-radius: 100px;
+    transform: rotate(17deg);
+    top: 36%;
+    right: 7%;
+}
+
+.circle {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    background: var(--degrade-logo);
+    border-radius: 50%;
+    top: 35%;
+    left: 65%;
+    z-index: 2;
+}
+
+@media(max-width:900px) {
+    .sand-bar {
+        position: absolute;
+        width: 550px;
+        height: 110px;
+        background-color: var(--sand);
+        border-radius: 100px;
+        transform: rotate(15deg);
+        top: 26%;
+        right: -44%;
+    }
+
+    .seafoam-bar {
+        position: absolute;
+        width: 450px;
+        height: 90px;
+        background-color: var(--seafoam);
+        border-radius: 100px;
+        transform: rotate(17deg);
+        top: 42%;
+        right: -33%;
+    }
+
+    .circle {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: var(--degrade-logo);
+        border-radius: 50%;
+        top: 39%;
+        left: 64%;
+        z-index: 2;
+    }
+}
+
+.coastal-section {
+    background-color: var(--ivory);
+    color: var(--kelp);
+}
+
+.coastal-sub {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--mineral);
+}
+
+.coastal-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.coastal-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 480px;
+}
+
+.coastal-section .card {
+    background-color: var(--abyss);
+    color: var(--ivory);
+    border-radius: 15px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--font-serif);
+    color: var(--ivory);
+}
+
+.stat-label {
+    color: var(--mineral);
+}
+
+.illustration-box {
+    background-color: var(--kelp);
+    border-radius: 24px;
+    height: 415px;
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+}
+
+.illustration-box div.sand-bar {
+    position: absolute;
+    width: 537px;
+    height: 110px;
+    background-color: var(--sand);
+    border-radius: 100px;
+    transform: rotate(15deg);
+    z-index: 2;
+}
+
+.illustration-box div.seafoam-bar {
+    position: absolute;
+    width: 437px;
+    height: 90px;
+    background-color: var(--seafoam);
+    border-radius: 100px;
+    transform: rotate(17deg);
+    top: 49%;
+    z-index: 2;
+}
+
+.illustration-box div.circle {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: var(--degrade-logo);
+    border-radius: 50%;
+    left: 35%;
+    top: 44%;
+    z-index: 2;
+}
+
+@media (max-width:900px) {
+    .illustration-box div.sand-bar {
+        position: absolute;
+        width: 537px;
+        height: 110px;
+        background-color: var(--sand);
+        border-radius: 100px;
+        transform: rotate(15deg);
+        z-index: 2;
+    }
+
+    .illustration-box div.seafoam-bar {
+        position: absolute;
+        width: 437px;
+        height: 90px;
+        background-color: var(--seafoam);
+        border-radius: 100px;
+        transform: rotate(17deg);
+        top: 49%;
+        z-index: 2;
+    }
+
+    .illustration-box div.circle {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        background: var(--degrade-logo);
+        border-radius: 50%;
+        left: 35%;
+        top: 44%;
+        z-index: 2;
+    }
+}
+
+.menu-section {
+    background-color: var(--ivory);
+    color: var(--kelp);
+    text-align: center;
+}
+
+.menu-title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.menu-intro {
+    font-size: 1rem;
+}
+
+.menu-color {
+    color: var(--ivory);
+}
+
+.menu-color-p {
+    color: var(--mineral);
+}
+
+.menu-color-price {
+    color: var(--sand);
+}
+
+.card-illu {
+    height: 180px;
+    border-radius: 18px;
+    background: var(--degrade-cadre);
+
+}
+
+.dinner-section {
+    background: linear-gradient(to bottom, var(--seafoam) 0%, var(--seafoam) 45%, var(--kelp) 45%, var(--kelp) 100%);
+}
+
+@media (max-width:500px) {
+    .dinner-section {
+        background: var(--kelp);
+    }
+}
+
+.dinner-title {
+    font-size: 3rem;
+    line-height: 1.15;
+    color: var(--ivory);
+}
+
+.dinner-text {
+    font-size: 1rem;
+    color: var(--mist);
+}
+
+.reservation-card {
+    background-color: var(--ivory);
+    border-radius: 20px;
+    color: var(--kelp);
+    max-width: 450px;
+    margin-left: auto;
+}
+
+.reservation-card h3 {
+    font-size: 2rem;
+}
+
+.reservation-card p {
+    font-size: 1rem;
+}
+
+.border-color {
+    border-color: var(--mineral);
+}
+
+footer {
+    background-color: var(--abyss);
+    font-size: 1rem;
+}
+
+footer h4 {
+    color: var(--ivory);
+}
+
+footer p {
+    color: var(--mineral);
+    margin-bottom: 0;
+}
+
+footer .nav-link {
+    color: var(--sand);
+}
