@@ -24,6 +24,7 @@ h4 {
     font-family: var(--font-serif);
 }
 
+/*Header*/
 .header-section {
     background-color: var(--kelp);
 }
@@ -83,6 +84,7 @@ h4 {
     margin: 0;
 }
 
+/*Boutons*/
 .btn-custom-ivory {
     color: var(--abyss);
     border: 1px solid var(--ivory);
@@ -117,6 +119,7 @@ h4 {
     color: var(--kelp);
 }
 
+/*Formes header*/
 .formes {
     position: relative;
 }
@@ -190,6 +193,7 @@ h4 {
     }
 }
 
+/*Coastal section*/
 .coastal-section {
     background-color: var(--ivory);
     color: var(--kelp);
@@ -214,6 +218,7 @@ h4 {
     max-width: 480px;
 }
 
+/*Cards coastal*/
 .coastal-section .card {
     background-color: var(--abyss);
     color: var(--ivory);
@@ -231,6 +236,7 @@ h4 {
     color: var(--mineral);
 }
 
+/*Formes dans box*/
 .illustration-box {
     background-color: var(--kelp);
     border-radius: 24px;
@@ -272,6 +278,7 @@ h4 {
     z-index: 2;
 }
 
+/*Media pas encore calé*/
 @media (max-width:900px) {
     .illustration-box div.sand-bar {
         position: absolute;
@@ -306,6 +313,7 @@ h4 {
     }
 }
 
+/*Menu cards*/
 .menu-section {
     background-color: var(--ivory);
     color: var(--kelp);
@@ -340,6 +348,7 @@ h4 {
 
 }
 
+/*Dinner section*/
 .dinner-section {
     background: linear-gradient(to bottom, var(--seafoam) 0%, var(--seafoam) 45%, var(--kelp) 45%, var(--kelp) 100%);
 }
@@ -361,6 +370,7 @@ h4 {
     color: var(--mist);
 }
 
+/*Formulaire reservation*/
 .reservation-card {
     background-color: var(--ivory);
     border-radius: 20px;
@@ -381,6 +391,7 @@ h4 {
     border-color: var(--mineral);
 }
 
+/*Footer*/
 footer {
     background-color: var(--abyss);
     font-size: 1rem;
